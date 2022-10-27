@@ -1,9 +1,9 @@
 ## Conectarse al server y bindiar puerto: ##
 
-    ssh -L _(puerto_asignado)_:localhost:9999 _(usuario)_@ec2-3-23-88-218.us-east-2.compute.amazonaws.com
+    ssh -L _(puerto_asignado)_:localhost:9999 _(usuario)_@_(instancia)_
 
 ### Ejemplo: ###
-    ssh -L _9999_:localhost:9999 _agustingenoud_@ec2-3-23-88-218.us-east-2.compute.amazonaws.com
+    ssh -L _9999_:localhost:9999 agustingenoud@ec2-3-23-88-218.us-east-2.compute.amazonaws.com
 
 
 Abrir docker-compose y cambiar:
